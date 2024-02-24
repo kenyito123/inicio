@@ -1,0 +1,12 @@
+@use '../../styles/mixins' as m;
+@use '../../styles/variables' as v;
+.nav {
+    display: flex;
+    background-color: rgb(64, 126, 214);
+    >:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+

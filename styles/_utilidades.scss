@@ -1,0 +1,278 @@
+//IMPORTACIONES
+@use 'variables' as v;
+@use 'mixins' as m;
+//ESTILOS CEINT
+/* .categorias{
+    width: 19rem;
+    padding: 1rem;
+    border: 0.2rem solid v.$blanco;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    a{
+        width: 16rem;
+        height: 8rem;
+        background-color: v.$negro_medio;
+        padding: 1rem;  
+        border: 0.2rem solid v.$blanco;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        &:hover{
+            background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        }
+    }
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+.herramientas{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    a{
+        width: 7rem;
+        height: 7rem;
+        background-color: v.$negro_medio;
+        padding: 0.5rem;  
+        border: 0.2rem solid v.$blanco;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        &:hover{
+            background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        }
+    }
+    img{
+        width: 3rem;
+        height: 3rem;
+    }
+    p{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+}
+.modulos{
+    padding: 1rem;
+    border: 0.2rem solid v.$blanco;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    a{
+        width: 12rem;
+        height: 12rem;
+        background-color: v.$negro_medio;
+        background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        padding: 1rem;  
+        border: 0.2rem solid v.$blanco;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        &:hover{
+            background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        }
+    }
+    img{
+        width: 6rem;
+        height: 6rem;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: v.$negro_medio;
+    }
+}
+.cursos{
+    padding: 1rem;
+    border: 0.2rem solid v.$blanco;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1rem;
+    @include m.tablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include m.laptop {
+        @include m.mw (1200px);
+        grid-template-columns: repeat(3, 1fr);
+    }
+    a{
+        background-color: v.$negro_medio;
+        background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        padding: 1rem;  
+        border: 0.2rem solid v.$blanco;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        &:hover{
+            background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        }
+    }
+    img{
+        width: 4rem;
+        height: 4rem;
+    }
+    p{
+        font-size: 1rem;
+        color: v.$negro_medio;
+        font-weight: 500;
+    }
+    h4{
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+.nav3{
+    @include m.mw (1200px);
+    padding: 2rem 0;
+    display: flex;
+    gap: 1rem;
+    
+    a{
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+        padding: 0.8rem;
+        border: 0.2rem solid v.$blanco;
+        border-radius: 0.5rem;
+        &:hover{
+            color: v.$negro_medio;
+            background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        }
+    }
+}
+.teoria{   
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    a{
+        width: 30rem;
+        font-weight: 700;
+        text-align: center;
+        background: linear-gradient(to right, v.$verde_oscuro_gradiente 0%, v.$verde_claro_gradiente 100%);
+        padding: 1rem;
+        border: 0.2rem solid v.$blanco;
+        border-radius: 1rem;
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+        &:hover{
+            color: v.$negro_medio;
+            
+        }
+    }
+    div{
+        height: 100%;
+        border-left: 0.2rem solid v.$negro_medio;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+    }
+    p{
+        color: v.$negro_medio;
+    }
+} */
+.h1 {
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0;
+    span {
+        color: v.$colorPrincipal;
+    }
+}
+.h2 {
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding: 2.4rem 0;
+    span {
+        color: v.$colorPrincipal;
+    }
+}
+.contenedorFormulario {
+    h2 {
+        font-size: 1.6rem;
+        padding: 0;
+    }
+    .descripcion {
+        font-weight: 900;
+        text-align: center;
+        margin: 1.5rem 0;
+        span {
+            color: v.$colorPrincipal;
+        }
+    }
+}
+.form{
+    background-color: v.$blanco;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem v.$sombra;
+    .campo {
+        margin-bottom: 1rem;
+    }
+    .campo:last-child {
+        margin-bottom: 0
+    }
+    label{
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    input{
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        font-weight: 400;
+        color: v.$negro;
+        background-color: v.$blanco;
+        margin: 0;
+        padding: 0.5rem;
+        border: 0.2rem solid v.$plomo;
+        border-radius: 0.5rem;
+        &::placeholder{
+            color: v.$plomoOscuro;
+        }
+        &:focus{
+            border: 0.2rem solid v.$colorPrincipal;
+        }
+        &:focus-visible{
+            outline: none;
+            border: 0.2rem solid v.$colorPrincipal;
+        }
+    } 
+}
+.body {
+    display: grid;
+    grid-template-columns: 10rem auto;
+}

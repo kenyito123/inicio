@@ -1,0 +1,9 @@
+@use '../../styles/mixins' as m;
+@use '../../styles/variables' as v;
+.link{
+    background-color: red;
+}
+.activeLink{
+    color: greenyellow;
+    background-color: red;
+}
